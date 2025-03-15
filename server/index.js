@@ -10,8 +10,8 @@ const mongoose = require('mongoose');
 const corsOptions = {
   origin: [
     'http://localhost:3001',
-    'http://127.0.0.1:3001',
     'http://localhost:5173',
+    'https://gitbackend.vercel.app',
     'https://c17d5f31-ed06-4a21-878f-59e26c706b98.lovableproject.com',
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
